@@ -1,0 +1,26 @@
+[Variables]
+Total=8
+1Name=Discord
+1Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord.lnk"]
+1Icon=Discord_Lnk
+2Name=Spotify
+2Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk"]
+2Icon=Spotify_lnk
+3Name=#CoreHome
+3Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\#CoreHome.lnk"]
+3Icon=#CoreHome_lnk
+4Name=Terminal
+4Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Terminal.lnk"]
+4Icon=Terminal_lnk
+5Name=Vscode
+5Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Vscode.lnk"]
+5Icon=Vscode_lnk
+6Name=Xodo
+6Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Xodo.lnk"]
+6Icon=Xodo_lnk
+7Name=GitHub Desktop
+7Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub Desktop.lnk"]
+7Icon=GitHub Desktop_lnk
+8Name=Edge
+8Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Edge.lnk"]
+8Icon=Edge_lnk
