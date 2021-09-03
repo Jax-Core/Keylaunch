@@ -34,11 +34,11 @@ ImageName=#@#IconCache\#Sec.Icon#.png
 
 [String]
 Meter=String
-FontSize=12
+FontSize=(12*#FontSizeModifier#)
 X=5R
 Y=(32/2)r
-FontColor=255,255,255,(255*(1-#TweenNode2#))
-FontFace=Poppins SemiBold
+FontColor=#FontColor#,(255*(1-#TweenNode2#))
+FontFace=#GlobalFont#
 Text=#Sec.Name#
 AntiAlias=1
 StringAlign=LeftCenter

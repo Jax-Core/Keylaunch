@@ -5,7 +5,6 @@ function Initialize()
         _G["Name"..i] = SKIN:GetVariable(i..'Name')
         _G["Icon"..i] = SKIN:GetVariable(i..'Icon')
         _G["Action"..i] = SKIN:GetVariable(i..'Action')
-        print("Loaded:   " .. _G["Name"..i])
     end
     -- 
     -- Item1Name = SKIN:GetVariable('1Name')
@@ -13,8 +12,13 @@ function Initialize()
 end
 
 function Launch(index)
-    SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Name', _G["Name"..index], root..'Launch\\Main.ini')
-    SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Icon', _G["Icon"..index], root..'Launch\\Main.ini')
-    SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Action', _G["Action"..index], root..'Launch\\Main.ini')
-    SKIN:Bang('!ActivateConfig', 'Keylaunch\\Launch')
+    if tonumber(SKIN:GetVariable('ShowAni')) == 0 then
+        SKIN:Bang('!SetOption', 'Executer:M', 'OnUpdateAction', _G["Action"..index])
+        SKIN:Bang('!UpdateMeasure', 'Executer:M')
+    else
+        SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Name', _G["Name"..index], root..'Launch\\Main.ini')
+        SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Icon', _G["Icon"..index], root..'Launch\\Main.ini')
+        SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Action', _G["Action"..index], root..'Launch\\Main.ini')
+        SKIN:Bang('!ActivateConfig', 'Keylaunch\\Launch')
+    end
 end

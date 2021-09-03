@@ -1,6 +1,6 @@
 [Variables]
-TweenTime1=500
-TweenTime2=500
+TweenTime1=(500*#AniSpeedModifier#)
+TweenTime2=(500*#AniSpeedModifier#)
 
 Sec.Skew=50
 Sec.W=500
@@ -37,11 +37,11 @@ ImageName=#@#IconCache\#Sec.Icon#.png
 
 [String]
 Meter=String
-FontSize=50
+FontSize=(50*#FontSizeModifier#)
 X=(256/2)r
 Y=(30)R
-FontColor=255,255,255,(255*#TweenNode1#*(1-#TweenNode2#))
-FontFace=Poppins SemiBold
+FontColor=#FontColor#,(255*#TweenNode1#*(1-#TweenNode2#))
+FontFace=#GlobalFont#
 Text=#Sec.Name#
 AntiAlias=1
 StringAlign=CenterTop
