@@ -5,7 +5,7 @@ CircSize=140
 MainCColor=0,0,0
 MainCOpacity=150
 FontColor=255,255,255
-Glowcolor=255,255,255
+Glowcolor=0,0,0
 Glowopacity=150
 
 ExecuteAt=1

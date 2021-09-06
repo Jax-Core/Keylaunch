@@ -1,9 +1,11 @@
 [Variables]
-TweenTime1=500
-TweenTime2=500
-
 Sec.Pad=50
+TweenTime1=(500)
+TweenTime2=(500)
 
+[LoadActions]
+ActionList1=Start0 | Wait 500 | Start1 | Wait 500 | Deactivate
+ActionList3=Wait 500 | Action
 
 [mTween]
 Measure=Script

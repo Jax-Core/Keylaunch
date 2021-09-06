@@ -1,6 +1,6 @@
 [Variables]
-TweenTime1=(1250*#AniSpeedModifier#)
-TweenTime2=(450*#AniSpeedModifier#)
+TweenTime1=(1250)
+TweenTime2=(450)
 
 
 [mTween]

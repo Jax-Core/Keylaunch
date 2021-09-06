@@ -1,6 +1,6 @@
 [Variables]
-TweenTime1=(500*#AniSpeedModifier#)
-TweenTime2=(500*#AniSpeedModifier#)
+TweenTime1=(500)
+TweenTime2=(500)
 
 Sec.Skew=50
 Sec.W=500

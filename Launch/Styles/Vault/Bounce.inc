@@ -1,5 +1,5 @@
 [Variables]
-TweenTime1=(700*#AniSpeedModifier#)
+TweenTime1=(700)
 TweenTime2=0
 
 Sec.Pad=10

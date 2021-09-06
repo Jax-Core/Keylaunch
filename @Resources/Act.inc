@@ -1,23 +1,2 @@
 [Variables]
-Total=7
-1Name=Discord
-1Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord.lnk"]
-1Icon=Discord_lnk
-2Name=Edge
-2Action=["C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"]
-2Icon=msedge_exe
-3Name=WPS Office
-3Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WPS Office\WPS Office.lnk"]
-3Icon=WPS Office_lnk
-4Name=Spotify
-4Action=["C:\Users\enhan\Desktop\Spotify.lnk"]
-4Icon=Spotify_lnk
-5Name=Vscode
-5Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Vscode.lnk"]
-5Icon=Vscode_lnk
-6Name=Paint.net
-6Action=["C:\Program Files\paint.net\PaintDotNet.exe"]
-6Icon=PaintDotNet_exe
-7Name=GitHub Desktop
-7Action=["C:\Users\enhan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub Desktop.lnk"]
-7Icon=GitHub Desktop_lnk
+Total=0
