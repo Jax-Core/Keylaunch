@@ -1,14 +1,9 @@
-[Variables]
-TweenTime1=(1250)
-TweenTime2=(450)
-
-
 [mTween]
 Measure=Script
 ScriptFile=#@#LuaTween/Main.lua
 TweenGroup=Tweenable
-Tween0=Single | Variable | TweenNode1 | 0 | 1 | #TweenTime1#
-Tween1=Single | Variable | TweenNode2 | 0 | 1 | #TweenTime2#
+Tween0=Single | Variable | TweenNode1 | 0 | 1 | #LongDelay#
+Tween1=Single | Variable | TweenNode2 | 0 | 1 | #ShortDelay#
 Optional0=Easing InOutExpo
 Optional1=Easing InOutExpo
 UpdateDivider=1
