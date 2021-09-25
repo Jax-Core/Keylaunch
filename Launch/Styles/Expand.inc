@@ -1,0 +1,40 @@
+[mTween]
+Measure=Script
+ScriptFile=#@#LuaTween/Main.lua
+TweenGroup=Tweenable
+Tween0=Single | Variable | TweenNode1 | 0 | 1 | #LongDelay#
+Tween1=Single | Variable | TweenNode2 | 0 | 1 | #ShortDelay#
+Optional0=Easing InOutExpo
+Optional1=Easing InOutExpo
+UpdateDivider=1
+
+; [Fader]
+; MEter=String
+; W=#SCREENAREAWIDTH#
+; H=#SCREENAREAHEIGHT#
+; SolidColor=#MainCColor#,(#MainCOpacity#*(#TweenNode1#-0.5)/0.5-#MainCOpacity#*#TweenNode2#)
+; DynamicVariables=1
+
+[Image]
+MEter=Image
+X=(#SCREENAREAWIDTH#/2-350*#TweenNode1#/2)
+Y=(#SCREENAREAHEIGHT#/2-350*#TweenNode1#/2)
+W=(350*#TweenNode1#)
+H=(350*#TweenNode1#)
+ImageAlpha=(50*(#TweenNode1#))
+DynamicVariables=1
+ImageName=#@#IconCache\#Sec.Icon#.png
+
+[String]
+Meter=String
+FontSize=(50*#FontSizeModifier#)
+X=(#SCREENAREAWIDTH#/2-50*#TweenNode1#)
+Y=(#SCREENAREAHEIGHT#/2)
+FontColor=#FontColor#,(255*(#TweenNode1#))
+FontFace=#GlobalFont#
+Text=#Sec.Name#
+AntiAlias=1
+StringAlign=CenterCenter
+DynamicVariables=1
+InlineSetting=Shadow | 0 | 0 | #Blur# | #Glowcolor#,#GlowOpacity#
+InlineSetting2=CharacterSpacing | (#TweenNode1#*100)

@@ -16,6 +16,7 @@ function Launch(index)
         SKIN:Bang('!SetOption', 'Executer:M', 'OnUpdateAction', _G["Action"..index])
         SKIN:Bang('!UpdateMeasure', 'Executer:M')
     else
+        if tonumber(SKIN:GetVariable('Caps')) == 1 then _G["Name"..index] = string.upper(_G["Name"..index]) end
         SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Name', _G["Name"..index], root..'Launch\\Main.ini')
         SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Icon', _G["Icon"..index], root..'Launch\\Main.ini')
         SKIN:Bang('!WriteKeyvalue', 'Variables', 'Sec.Action', _G["Action"..index], root..'Launch\\Main.ini')

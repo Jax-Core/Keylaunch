@@ -39,4 +39,4 @@ Text=#Sec.Name#
 AntiAlias=1
 StringAlign=LeftCenter
 DynamicVariables=1
-InlineSetting=Shadow | 0 | 0 | #Blur# | 255,255,255,150
+InlineSetting=Shadow | 0 | 0 | #Blur# | #Glowcolor#,#GlowOpacity#
