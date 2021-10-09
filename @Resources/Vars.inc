@@ -10,7 +10,7 @@ Glowopacity=150
 
 ExecuteAt=1
 LaunchAt=1
-Caps=0
+Caps=1
 
 AniStyle=Expand
 GlobalFont=Atami Stencil
