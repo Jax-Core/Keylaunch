@@ -3,6 +3,12 @@
 Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\Act.inc
 Sec.ForceWriteVariables=0
 
+[DefaultStartActions]
+Custom2=[!SetOption AnchorSuppli Y [AnchorSuppli:Y]][!UpdateMeter AnchorSuppli]
+[ContentContainer]
+MouseScrollDownAction=[!SetVariable Scroll "(Clamp(#Scroll#-50,Clamp(#Set.H#-#Set.P#*2-[AnchorSuppli:Y], -1000, 0),0))"][!UpdateMeter *][!Redraw]
+MouseScrollUpAction=[!SetVariable Scroll "(Clamp(#Scroll#+50,Clamp(#Set.H#-#Set.P#*2-[AnchorSuppli:Y], -1000, 0),0))"][!UpdateMeter *][!Redraw]
+
 [HotkeysTitle]
 Meter=String
 Text=List of actions (#Total#)
@@ -15,7 +21,7 @@ MeterStyle=Set.String:S | Set.OptionCat:S
 
 [Script:M]
 Measure=Script
-ScriptFile=#@#Lua\GenKeylaunchKey.lua
+ScriptFile="#SKINSPATH##Skin.name#\Core\GenKeylaunchKey.lua"
 
 [CheckForDataFolder]
 MEasure=Plugin
@@ -51,5 +57,17 @@ Act=[!CommandMeasure Script:M "Remove(0, '#CURRENTSECTION#')"]
 
 
 @includeInclude=#SKINSPATH#..\CoreData\Keylaunch\Include.inc
+
+
+; ---------------------------------------------------------------------------- ;
+;                                    Anchor                                    ;
+; ---------------------------------------------------------------------------- ;
+
+
+[AnchorSuppli]
+Meter=String
+Container=ContentContainer
+x=r
+Y=R
 
 @includeKeys=#SKINSPATH##Skin.Name#\@Resources\Actions\HotKeys.ini

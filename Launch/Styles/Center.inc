@@ -16,7 +16,7 @@ W=(300*#TweenNode1#)
 H=(300*#TweenNode1#)
 ImageAlpha=(50*(1-#TweenNode2#))
 DynamicVariables=1
-ImageName=#@#IconCache\#Sec.Icon#.png
+ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
 
 [Image]
 MEter=Image
@@ -26,7 +26,7 @@ W=(256*#TweenNode1#)
 H=(256*#TweenNode1#)
 ImageAlpha=(255*(1-#TweenNode2#))
 DynamicVariables=1
-ImageName=#@#IconCache\#Sec.Icon#.png
+ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
 
 [String]
 Meter=String

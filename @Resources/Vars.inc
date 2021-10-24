@@ -12,12 +12,12 @@ ExecuteAt=1
 LaunchAt=1
 Caps=1
 
-AniStyle=Expand
+AniStyle=Center
 GlobalFont=Atami Stencil
 
 UpdateRate=0
 ShowAni=1
 FontSizeModifier=2
 
-LongDelay=1000
+LongDelay=800
 ShortDelay=500

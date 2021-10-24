@@ -28,4 +28,4 @@ W=(64)
 H=(64)
 ImageAlpha=255
 DynamicVariables=1
-ImageName=#@#IconCache\#Sec.Icon#.png
+ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
