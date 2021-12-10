@@ -2,12 +2,7 @@
 @includeAct=#SKINSPATH##Skin.Name#\@Resources\Act.inc
 Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\Act.inc
 Sec.ForceWriteVariables=0
-
-[DefaultStartActions]
-Custom2=[!SetOption AnchorSuppli Y [AnchorSuppli:Y]][!UpdateMeter AnchorSuppli]
-[ContentContainer]
-MouseScrollDownAction=[!SetVariable Scroll "(Clamp(#Scroll#-50,Clamp(#Set.H#-#Set.P#*2-[AnchorSuppli:Y], -1000, 0),0))"][!UpdateMeter *][!Redraw]
-MouseScrollUpAction=[!SetVariable Scroll "(Clamp(#Scroll#+50,Clamp(#Set.H#-#Set.P#*2-[AnchorSuppli:Y], -1000, 0),0))"][!UpdateMeter *][!Redraw]
+Sec.AnchorName=AnchorSuppli
 
 [HotkeysTitle]
 Meter=String
@@ -49,6 +44,13 @@ MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Fill Color 255,0,0,100"][!Up
 X=(#Set.W#-#Set.L#-#Set.P#*2-190*[Set.S])
 Shape=Rectangle (160*[Set.S]),0,(30*[Set.S]),(30*[Set.S]),3,3 | StrokeWidth 0 | Extend Fill
 Act=[!CommandMeasure Script:M "Remove(0, '#CURRENTSECTION#')"]
+
+[Sec.KeyInString:S]
+X=(-10*[Set.S])R
+
+[Sec.RowButton:S]
+X=(#Set.W#-#Set.L#-#Set.P#*2-151*[Set.S])
+Shape=Rectangle 0,0,150,30,3,3 | StrokeWidth 0 | Extend Fill | Scale [Set.S],[Set.S],0,0
 
 ; ---------------------------------------------------------------------------- ;
 ;                                   Includes                                   ;

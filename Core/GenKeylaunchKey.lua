@@ -158,13 +158,13 @@ function Write(t1, t2, t3)
         ,'[Value'..i..']\n'
         ,'Meter=String\n'
         ,'Text=#Key'..i..'InString#\n'
-        ,'MeterStyle=Set.String:S | Set.Value:S\n'
+        ,'MeterStyle=Set.String:S | Set.Value:S | Sec.KeyInString:S\n'
     )
     end
     File:write(
         '[Button'..t2..']\n'
         ,'Meter=Shape\n'
-        ,'MeterStyle=Set.Button:S\n'
+        ,'MeterStyle=Set.Button:S | Sec.RowButton:S\n'
         ,'OverColor=0,255,50,150\n'
         ,'LeaveColor=0,255,50,100\n'
         ,'Y=([Option'..t2..':Y]-#Set.P#+(-30/2+8)*[Set.S])\n'
@@ -178,7 +178,7 @@ function Write(t1, t2, t3)
         ,'[Button'..t3..']\n'
         ,'Meter=Shape\n'
         ,'X=(-235*[Set.S])r\n'
-        ,'MeterStyle=Set.Button:S\n'
+        ,'MeterStyle=Set.Button:S | Sec.RowButton:S\n'
         ,'OverColor=255,0,50,150\n'
         ,'LeaveColor=255,0,50,100\n'
         ,'Y=([Option'..t2..':Y]-#Set.P#+(-30/2+8)*[Set.S])\n'
