@@ -14,7 +14,7 @@ Caps=0
 
 Style=Spin
 GlobalFont=SF Pro Rounded
-Greyscale=1
+Greyscale=0
 
 UpdateRate=0
 ShowAni=1

@@ -51,6 +51,13 @@ MeterStyle=Set.Div:S
 Meter=String
 Text=Glow color
 MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:SussyBaka]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option16]
+Meter=String
+Text=Greyscale Icon
+MeterStyle=Set.String:S | Set.OptionName:S
 
 [AniTitle]
 Meter=String
@@ -124,6 +131,10 @@ Y=([Option15:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Meter=String
 Text=#GlowOpacity#
 MeterStyle=Set.String:S | Set.Pacity:S
+[Greyscale]
+Meter=Shape
+MeterStyle=Set.Bool:S
+Y=([Option16:Y]-#Set.P#+(-20/2+8)*[Set.S])
 
 
 [ShowAni]
