@@ -8,7 +8,7 @@ Y=(20*[Set.S]+#Scroll#)
 
 [Export:M]
 Measure=String
-String=#AniStyle#
+String=#Style#
 IfMatch=^Center$
 Ifmatchaction=[!SetOption Center MeterStyle "Select:S | Selected:S"][!UpdateMeter Center][!Redraw]
 IfMatch2=^Bottom$
@@ -26,12 +26,12 @@ X=r
 Y=(20*[Set.S])R
 W=(650*[Set.S])
 H=(150*[Set.S])
-ImageName=#@#Images\KeylaunchLayout\#CURRENTSECTIOn#.png
+ImageName=#SKINSPATH##Skin.Name#\Core\Animation\#CURRENTSECTIOn#.png
 DynamicVariables=1
 ImageAlpha=100
 MouseOverAction=[!SetOption #CURRENTSECTION# ImageAlpha "200"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# ImageAlpha "100"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-Leftmouseupaction=[!WriteKeyValue Variables AniStyle "#CURRENTSECTION#" "#Sec.SaveLocatioN#"][!UpdateMeasure Auto_Refresh:M][!Refresh]
+Leftmouseupaction=[!WriteKeyValue Variables Style "#CURRENTSECTION#" "#Sec.SaveLocatioN#"][!UpdateMeasure Auto_Refresh:M][!Refresh]
 PreserveAspectRatio=2
 DynamicVariables=1
 MaskImageName=#@#Images\LayoutMask.png

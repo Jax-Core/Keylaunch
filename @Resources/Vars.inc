@@ -12,13 +12,12 @@ ExecuteAt=0
 LaunchAt=1
 Caps=0
 
-AniStyle=Bottom
+Style=Spin
 GlobalFont=SF Pro Rounded
+Greyscale=1
 
 UpdateRate=0
 ShowAni=1
-FontSizeModifier=2
+FontSizeModifier=1
 
-LongDelay=800
-ShortDelay=500
 Glow=255,255,255

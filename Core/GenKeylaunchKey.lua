@@ -24,7 +24,7 @@ function Initialize()
         local t3 = t + 3
     
         Write(t1, t2, t3)
-        SKIN:Bang('!WriteKeyValue', 'Variables', 'Sec.ForceWriteVariables', '0', skinroot..'Core\\General.inc')
+        SKIN:Bang('!WriteKeyValue', 'Variables', 'Sec.ForceWriteVariables', '0', skinroot..'Core\\Actions.inc')
         SKIN:Bang('!UpdateMeasure', 'Auto_Refresh:M')
         SKIN:Bang('!Refresh')
     end
@@ -96,7 +96,7 @@ function Remove(initSelection, startingIndex)
             SKIN:Bang('!WriteKeyValue', 'Variables', 'Key'..i..'InString', _G["KeyS"..nextIndex], HotkeyFile)
         end
         SKIN:Bang('!WriteKeyValue', 'Variables', 'Total', (t-1), saveLocation)
-        SKIN:Bang('!WriteKeyValue', 'Variables', 'Sec.ForceWriteVariables', '1', skinroot..'Core\\General.inc')
+        SKIN:Bang('!WriteKeyValue', 'Variables', 'Sec.ForceWriteVariables', '1', skinroot..'Core\\Actions.inc')
         SKIN:Bang('!Refresh')
         -- local t1 = t - 1
         -- local t2 = t + 2

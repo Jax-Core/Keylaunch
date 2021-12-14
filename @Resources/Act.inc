@@ -39,6 +39,3 @@ Total=13
 13Name=Fortnite
 13Action=["C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Fortnite.url"]
 13Icon=Fortnite_url
-13Name=Blank
-13Action=["!Log Action_is_Blank"]
-13Icon=folder_png

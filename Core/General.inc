@@ -1,75 +1,148 @@
-[Variables]
-@includeAct=#SKINSPATH##Skin.Name#\@Resources\Act.inc
-Sec.SaveLocation=#SKINSPATH##Skin.Name#\@Resources\Act.inc
-Sec.ForceWriteVariables=0
-Sec.AnchorName=AnchorSuppli
-
 [HotkeysTitle]
 Meter=String
-Text=List of actions (#Total#)
-; / tip: right click to select folders instaed of files
-InlinePattern=/.*
-inlinesetting=Size | (8*[Set.S])
-InlinePattern2=/.*
-inlinesetting2=Color | #Set.Subtext_Color#
+Text=Behavior
 MeterStyle=Set.String:S | Set.OptionCat:S
 
-[Script:M]
-Measure=Script
-ScriptFile="#SKINSPATH##Skin.name#\Core\GenKeylaunchKey.lua"
-
-[CheckForDataFolder]
-MEasure=Plugin
-Plugin=PowershellRM
-DynamicVariables=1
-OnUpdateAction=[!Delay 100][!CommandMeasure CheckForDataFolder "Check-Data"]
-ScriptFile=#@#Powershell\CheckData.ps1
-
-; ---------------------------------------------------------------------------- ;
-;                                    Styles                                    ;
-; ---------------------------------------------------------------------------- ;
-
-[Sec.Edit:S]
-Fill=Fill Color 0,255,50,100
-MouseOverAction=[!SetOption #CURRENTSECTION# Fill "Fill Color 0,255,50,200"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Fill Color 0,255,50,100"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-X=(#Set.W#-#Set.L#-#Set.P#*2-190*[Set.S])
-Shape=Rectangle (160*[Set.S]),0,(30*[Set.S]),(30*[Set.S]),3,3 | StrokeWidth 0 | Extend Fill
-Act=[!CommandMeasure Script:M "Edit(0, 0, '#CURRENTSECTION#')"]
-
-[Sec.Delete:S]
-Fill=Fill Color 255,0,0,100
-MouseOverAction=[!SetOption #CURRENTSECTION# Fill "Fill Color 255,0,0,200"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Fill Color 255,0,0,100"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-X=(#Set.W#-#Set.L#-#Set.P#*2-190*[Set.S])
-Shape=Rectangle (160*[Set.S]),0,(30*[Set.S]),(30*[Set.S]),3,3 | StrokeWidth 0 | Extend Fill
-Act=[!CommandMeasure Script:M "Remove(0, '#CURRENTSECTION#')"]
-
-[Sec.KeyInString:S]
-X=(-10*[Set.S])R
-
-[Sec.RowButton:S]
-X=(#Set.W#-#Set.L#-#Set.P#*2-151*[Set.S])
-Shape=Rectangle 0,0,150,30,3,3 | StrokeWidth 0 | Extend Fill | Scale [Set.S],[Set.S],0,0
-
-; ---------------------------------------------------------------------------- ;
-;                                   Includes                                   ;
-; ---------------------------------------------------------------------------- ;
-
-
-
-@includeInclude=#SKINSPATH#..\CoreData\Keylaunch\Include.inc
-
-
-; ---------------------------------------------------------------------------- ;
-;                                    Anchor                                    ;
-; ---------------------------------------------------------------------------- ;
-
-
-[AnchorSuppli]
+[Option01]
 Meter=String
-Container=ContentContainer
-x=r
-Y=R
+Text=Show application after animation
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:38]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option02]
+Meter=String
+Text=Full capital letter names
+MeterStyle=Set.String:S | Set.OptionName:S
 
-@includeKeys=#SKINSPATH##Skin.Name#\@Resources\Actions\HotKeys.ini
+[CoTitle]
+Meter=String
+Text=Global appearance
+MeterStyle=Set.String:S | Set.OptionCat:S
+[Option11]
+Meter=String
+Text=Text glow sigma
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:S1913s138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option12]
+Meter=String
+Text=Text font
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:Sasdasd1913s138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option13]
+Meter=String
+Text=Background color
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:Sas]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option14]
+Meter=String
+Text=Font color
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:Sus]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option15]
+Meter=String
+Text=Glow color
+MeterStyle=Set.String:S | Set.OptionName:S
+
+[AniTitle]
+Meter=String
+Text=Animation configuration
+MeterStyle=Set.String:S | Set.OptionCat:S
+[Option21]
+Meter=String
+Text=Start animations before launching application
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:S1913sadsas138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option26]
+Meter=String
+Text=Animation display monitor index
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:dsas138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option22]
+Meter=String
+Text=Animation frame interval (0 for true 60fps)
+MeterStyle=Set.String:S | Set.OptionName:S
+
+; ---------------------------------------------------------------------------- ;
+;                                     Input                                    ;
+; ---------------------------------------------------------------------------- ;
+
+[ExecuteAt]
+Meter=Shape
+MeterStyle=Set.Bool:S
+Y=([Option01:Y]-#Set.P#+(-20/2+8)*[Set.S])
+[Caps]
+Meter=Shape
+MeterStyle=Set.Bool:S
+Y=([Option02:Y]-#Set.P#+(-20/2+8)*[Set.S])
+
+[Blur]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option11:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value11]
+Meter=String
+Text=#Blur#
+MeterStyle=Set.String:S | Set.Value:S
+[GlobalFont]
+Meter=Shape
+MeterStyle=Set.FontBox:S
+Y=([Option12:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value12]
+Meter=String
+Text=#GlobalFont#
+MeterStyle=Set.String:S | Set.Value:S
+[MainC]
+Meter=Shape
+MeterStyle=Set.ColorPacity:S
+Y=([Option13:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value13]
+Meter=String
+Text=#MainCOpacity#
+MeterStyle=Set.String:S | Set.Pacity:S
+[FontColor]
+Meter=Shape
+MeterStyle=Set.Color:S
+Y=([Option14:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Glow]
+Meter=Shape
+MeterStyle=Set.ColorPacity:S
+Y=([Option15:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value15]
+Meter=String
+Text=#GlowOpacity#
+MeterStyle=Set.String:S | Set.Pacity:S
+
+
+[ShowAni]
+Meter=Shape
+MeterStyle=Set.Bool:S
+Y=([Option21:Y]-#Set.P#+(-20/2+8)*[Set.S])
+[LaunchAt]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option26:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value26]
+Meter=String
+Text=#LaunchAt#
+MeterStyle=Set.String:S | Set.Value:S
+[UpdateRate]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option22:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value22]
+Meter=String
+Text=#UpdateRate#
+MeterStyle=Set.String:S | Set.Value:S

@@ -2,8 +2,8 @@
 Measure=Script
 ScriptFile=#@#LuaTween/Main.lua
 TweenGroup=Tweenable
-Tween0=Single | Variable | TweenNode1 | 0 | 1 | #LongDelay#
-Tween1=Single | Variable | TweenNode2 | 0 | 1 | #ShortDelay#
+Tween0=Single | Variable | TweenNode1 | 0 | 1 | #Style.Time1#
+Tween1=Single | Variable | TweenNode2 | 0 | 1 | #Style.Time2#
 Optional0=Easing InOutExpo
 Optional1=Easing InOutExpo
 UpdateDivider=1
@@ -17,6 +17,7 @@ H=(300*#TweenNode1#)
 ImageAlpha=(50*(1-#TweenNode2#))
 DynamicVariables=1
 ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
+Greyscale=#Greyscale#
 
 [Image]
 MEter=Image
@@ -27,10 +28,11 @@ H=(256*#TweenNode1#)
 ImageAlpha=(255*(1-#TweenNode2#))
 DynamicVariables=1
 ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
+Greyscale=#Greyscale#
 
 [String]
 Meter=String
-FontSize=(50*#FontSizeModifier#)
+FontSize=(#Style.FontSize#)
 X=(256+#CircSize#-128+10)r
 Y=(256/2*#TweenNode1#)r
 FontColor=#FontColor#,(255*(#TweenNode1#-0.5)/0.5-255*#TweenNode2#)

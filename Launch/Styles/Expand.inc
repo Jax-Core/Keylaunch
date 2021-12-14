@@ -2,8 +2,8 @@
 Measure=Script
 ScriptFile=#@#LuaTween/Main.lua
 TweenGroup=Tweenable
-Tween0=Single | Variable | TweenNode1 | 0 | 1 | #LongDelay#
-Tween1=Single | Variable | TweenNode2 | 0 | 1 | #ShortDelay#
+Tween0=Single | Variable | TweenNode1 | 0 | 1 | #Style.Time1#
+Tween1=Single | Variable | TweenNode2 | 0 | 1 | #Style.Time2#
 Optional0=Easing InOutExpo
 Optional1=Easing InOutExpo
 UpdateDivider=1
@@ -24,11 +24,12 @@ H=(350*#TweenNode1#)
 ImageAlpha=(50*(#TweenNode1#))
 DynamicVariables=1
 ImageName=#SKINSPATH#..\CoreData\Keylaunch\IconCache\#Sec.Icon#.png
+Greyscale=#Greyscale#
 
 [String]
 Meter=String
-FontSize=(50*#FontSizeModifier#)
-X=(#SCREENAREAWIDTH#/2-50*#TweenNode1#)
+FontSize=(#Style.FontSize#)
+X=(#SCREENAREAWIDTH#/2-#Style.CharacterSpacing#/2*#TweenNode1#)
 Y=(#SCREENAREAHEIGHT#/2)
 FontColor=#FontColor#,(255*(#TweenNode1#))
 FontFace=#GlobalFont#
@@ -37,4 +38,4 @@ AntiAlias=1
 StringAlign=CenterCenter
 DynamicVariables=1
 InlineSetting=Shadow | 0 | 0 | #Blur# | #Glowcolor#,#GlowOpacity#
-InlineSetting2=CharacterSpacing | (#TweenNode1#*100)
+InlineSetting2=CharacterSpacing | (#TweenNode1#*#Style.CharacterSpacing#)
