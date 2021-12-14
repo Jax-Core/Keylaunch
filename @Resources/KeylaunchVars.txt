@@ -1,1 +1,0 @@
-Keylaunch\@Resources\Vars.inc | Keylaunch\@Resources\Act.inc | Keylaunch\@Resources\Actions\Hotkeys.ini

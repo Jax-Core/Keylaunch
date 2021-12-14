@@ -107,6 +107,11 @@ function Remove(initSelection, startingIndex)
     end
 end
 
+function Reset()
+    Write(1, 2, 3)
+    SKIN:Bang('!Refresh')
+end
+
 function Write(t1, t2, t3)
     -- -------------------------------------------------------------------------- --
     --                               Write settings                               --

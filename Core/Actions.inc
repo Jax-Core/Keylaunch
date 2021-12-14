@@ -79,7 +79,7 @@ MeterStyle=Set.Button:S
 OverColor=255,0,50,150
 LeaveColor=255,0,50,100
 Y=([Option91:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Act=[!WriteKeyValue Variables Total 0 "#Sec.SaveLocation#"][!Refresh]
+Act=[!CommandMeasure Script:M "Reset()"]
 [Value91]
 Meter=String
 Text=[\xf053]
