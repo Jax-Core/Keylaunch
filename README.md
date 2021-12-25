@@ -32,6 +32,14 @@ Rainmeter 4.5 or newer: [Download here](https://www.rainmeter.net/)
 3. Click on the pen icon and click Quick Setup to automatically input the fields.
 4. Click on the edit... button, then click a key on your keyboard and select one or multiple modifier keys from the horizontal list
 5. Activate keylaunch and viola! 
+
+### Change icon
+You can: 
+- Make a .Lnk shortcut, change the icon of that and select the .Lnk as the action
+or 
+- Paste an png image in `Documents\Rainmeter\CoreData\Keylaunch\IconCache`
+- Configure the action in core
+- Click on the icon and change the value to the image's name, then press enter and confirm.
   
 ## Contact me
 Join the discord server! https://discord.gg/JmgehPSDD6
