@@ -41,8 +41,8 @@
         <ul>
           <li><a href="#hotkey-setup">Hotkey Setup</a>
               <ul>
-              <li><a href="#automated-method">Automated Method</a></li>
-                <li><a href="#manual-method">Manual Method</a>
+              <li><a href="#default-configuration">Default Configuration</a></li>
+                <li><a href="#custom-icon-configuration">Custom Icon Configuration</a>
                 <ul>
                   <li><a href="#method-1">Method 1</a></li>
                   <li><a href="#method-2">Method 2</a></li> </ul>
@@ -104,7 +104,7 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 
 ### Hotkey Setup
 
-#### Automated Method:
+#### Default Configuration:
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
@@ -122,48 +122,50 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
-* **Note:** To add a new action, simply press the **Add an action** button and follow the steps outlined above.
-
-#### Manual Method:
+#### Custom Icon Configuration:
 
 Even when manually configuring an action, you have two options. They are, in turn, as follows:
 
 ##### Method 1:
-1. Create a shortcut with the custom icon and place it anywhere. **Make sure the shortcut has the `.lnk` extension**
+
+1. Create a shortcut with the custom icon and place it anywhere. **Make sure the shortcut has the `.lnk` extension.**
 2. Open Core and head over to the **Modules** section.
-2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+3. Select **Keylaunch** from the list and proceed to the **Actions** tab.
+4. Under **List of actions**, create a new action using the **Add an action** button.
+5. Press the edit button to create a new hotkey for a specific application.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
 
-4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
-5. Click the `Edit..` text to set the hotkey for the application you just created.
+6. Click on the **Quick Start** button and select the custom shortcut you creatd in **Step 1**.
+7. Click the `Edit..` text to set the hotkey for the application you just created.
     - **Note:** For reference, see the image below. **It's highlighted in grey.**
 
       <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
 
-6. Enter the hotkey and press confirm.
-7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
-
+8. Enter the hotkey and press confirm.
+9. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
 ##### Method 2:
 
-1. Open Core and head over to the **Modules** section.
-2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+1. Navigate to `Documents\Rainmeter\CoreData\Keylaunch\IconCache`.
+2. Paste the image file for your icon in the **IconCache** folder. **Make sure the image has the `.png` extension.**
+3. Open Core and head over to the **Modules** section.
+4. Select **Keylaunch** from the list and proceed to the **Actions** tab.
+5. Under **List of actions**, create a new action using the **Add an action** button.
+6. Press the edit button to create a new hotkey for a specific application.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
 
-4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
-5. Click the `Edit..` text to set the hotkey for the application you just created.
+7. Click on the **Quick Start** button and select the custom shortcut you creatd in **Step 1**.
+8. Click the `Edit..` text to set the hotkey for the application you just created.
     - **Note:** For reference, see the image below. **It's highlighted in grey.**
 
       <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
 
-6. Enter the hotkey and press confirm.
-7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+9. Enter the hotkey and press confirm.
+10. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
 * **Note:** To add a new action, simply press the **Add an action** button and follow either of the methods described above.
 
