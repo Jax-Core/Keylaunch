@@ -34,16 +34,19 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li>
-        <a href="#Configuration">Configuration</a>
-          <ul>
-        <li><a href="#setting-up-a-hotkey">Hotkey Setup</a></li>
-        <li><a href="#selecting-an-animation">Animation Selection</a></li>
-          </ul>
-        </li>
       </ul>
     </li>
-
+    <li>
+      <a href="#Configuration">Configuration</a>
+        <ul>
+          <li><a href="#automated-setup">Automated Setup</a>
+            <ul>
+              <li><a href="#setting-up-a-hotkey">Hotkey Setup</a></li>
+              <li><a href="#selecting-an-animation">Animation Selection</a></li>
+            </ul>
+          </li>
+        </ul>
+    </li>
  <li>
       <a href="#help-and-credits">Help and Credits</a>
     </li>
@@ -91,7 +94,7 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 * Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
-### Configuration
+## Configuration
 
 Now that you've installed Keylaunch, let's configure it!
 
