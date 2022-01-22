@@ -107,6 +107,12 @@ Now that you've installed Keylaunch, let's configure it!
 6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
+#### Selecting an animation:
+
+1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
+2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
+3. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
 </p>
