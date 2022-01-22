@@ -1,3 +1,4 @@
+<div id="top"></div>
 
 <br />
 <div align="center">
@@ -50,6 +51,8 @@ https://user-images.githubusercontent.com/97158976/150621609-8ff25058-37df-47e9-
 
 Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. The application hotkey list is extremely simple to configure, and you can even change the action's name and icon. There are four different types of animation presets to choose from and configure based on your preferences. **See the video linked above.**
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Features
 
 * 4 Animation Presets
@@ -57,6 +60,8 @@ Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. Th
 * Easy to Setup and Configure
 * Custom Icon and Action Names
 * Unlimited Hotkeys Support
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Getting Started
 
