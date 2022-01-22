@@ -48,8 +48,9 @@
           <li><a href="#manual-setup">Manual Setup</a>
             <ul>
               <li><a href="#setting-up-a-hotkey">Hotkey Setup</a>
+              <ul>
                 <li><a href="#method-1">Method 1</a></li>
-              <li><a href="#method-2">Method 2</a></li>
+              <li><a href="#method-2">Method 2</a></li> </ul>
               </li>
               <li><a href="#selecting-an-animation">Animation Selection</a></li>
             </ul>
