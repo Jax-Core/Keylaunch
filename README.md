@@ -46,9 +46,9 @@
 
 ## About
 
-![Keylaunch]()
+https://user-images.githubusercontent.com/97158976/150621609-8ff25058-37df-47e9-9883-df7d485eea1d.mp4
 
-Keylaunch is a Rainmeter skin that brings pattern and combination lock functionality to PC, influenced by the combination locks available on phones. It supports custom-drawn pattern styles and offers a wide variety of customization options.
+Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. The application hotkey list is extremely simple to configure, and you can even change the action's name and icon. There are four different types of animation presets to choose from and configure based on your preferences. **See the video linked above.**
 
 ## Features
 
