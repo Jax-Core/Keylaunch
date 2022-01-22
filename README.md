@@ -70,7 +70,7 @@ Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. Th
 
 ## Features
 
-* 4 Animation Presets
+* 5 Animation Presets
 * Vast Customization Options 
 * Easy to Setup and Configure
 * Custom Icon and Action Names
