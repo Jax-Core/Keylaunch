@@ -98,6 +98,10 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 * Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
+
 ## Configuration
 
 Now that you've installed Keylaunch, let's configure it! There are two different ways you can configure it as shown below.
