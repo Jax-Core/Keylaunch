@@ -39,24 +39,18 @@
     <li>
       <a href="#Configuration">Configuration</a>
         <ul>
-          <li><a href="#automated-setup">Automated Setup</a>
-            <ul>
-              <li><a href="#setting-up-a-hotkey">Hotkey Setup</a></li>
-              <li><a href="#selecting-an-animation">Animation Selection</a></li>
-            </ul>
-          </li>
-          <li><a href="#manual-setup">Manual Setup</a>
-            <ul>
-              <li><a href="#setting-up-a-hotkey">Hotkey Setup</a>
+          <li><a href="#setting-up-a-hotkey">Hotkey Setup</a>
               <ul>
-                <li><a href="#method-1">Method 1</a></li>
-              <li><a href="#method-2">Method 2</a></li> </ul>
-              </li>
-              <li><a href="#selecting-an-animation">Animation Selection</a></li>
-            </ul>
-          </li>
+              <li><a href="#automated-setup">Automated Setup</a></li>
+                <li><a href="#manual-setup">Manual Setup</a>
+                <ul>
+                  <li><a href="#method-1">Method 1</a></li>
+                  <li><a href="#method-2">Method 2</a></li> </ul>
+                </li>
+              </ul>
+            </li>
+          <li><a href="#selecting-an-animation">Animation Selection</a></li>
         </ul>
-    </li>
  <li>
       <a href="#help-and-credits">Help and Credits</a>
     </li>
@@ -108,9 +102,9 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 Now that you've installed Keylaunch, let's configure it! There are two different ways you can configure it as shown below.
 
-### Automated Setup
+### Hotkey Setup
 
-#### Setting up a hotkey:
+#### Automated Setup
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
@@ -128,21 +122,15 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
-#### Selecting an animation:
+* **Note:** To add a new action, simply press the **Add an action** button and follow the steps outlined above.
 
-1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
-2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
-3. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
-
-
-### Manual Setup
+#### Manual Setup
 
 Even when manually configuring an action, you have two options. They are, in turn, as follows:
 
-#### Setting up a hotkey:
-
 ##### Method 1:
-1. Open Core and head over to the **Modules** section.
+1. Create a shortcut with the custom icon and place it anywhere. **Make sure the shortcut has the `.lnk` extension**
+2. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
 3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
@@ -157,6 +145,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 
 6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
 
 ##### Method 2:
 
@@ -176,7 +165,9 @@ Even when manually configuring an action, you have two options. They are, in tur
 6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
-#### Selecting an animation:
+* **Note:** To add a new action, simply press the **Add an action** button and follow either of the methods described above.
+
+### Selecting an animation:
 
 1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
 2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
