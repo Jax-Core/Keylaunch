@@ -108,7 +108,7 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+3. Under **List of actions**, press the edit button to configure the pre-existing blank action.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
@@ -132,7 +132,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 2. Open Core and head over to the **Modules** section.
 3. Select **Keylaunch** from the list and proceed to the **Actions** tab.
 4. Under **List of actions**, create a new action using the **Add an action** button.
-5. Press the edit button to create a new hotkey for a specific application.
+5. Press the edit button to configure the action.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
@@ -154,7 +154,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 3. Open Core and head over to the **Modules** section.
 4. Select **Keylaunch** from the list and proceed to the **Actions** tab.
 5. Under **List of actions**, create a new action using the **Add an action** button.
-6. Click the edit button to create a new hotkey for a particular application.
+6. Press the edit button to configure the action.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
