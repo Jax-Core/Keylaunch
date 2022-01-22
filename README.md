@@ -52,9 +52,11 @@ Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. Th
 
 ## Features
 
-* Custom-drawn Lock Patterns
+* 4 Animation Presets
 * Vast Customization Options 
 * Easy to Setup and Configure
+* Custom Icon and Action Names
+* Unlimited Hotkeys Support
 
 ## Getting Started
 
@@ -75,24 +77,27 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 ### Configuration
 
+#### Setting up a hotkey:
+
 Now that you've installed Keylaunch, let's configure it!
 
-1. Click on the **System Tray** in the bottom right corner of your taskbar. 
-    - **Note:** The System Tray is indicated by the small upward pointing arrow. For reference, see the image below.
+1. Open Core and head over to the Modules section.
+2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
+3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
-      <img src ="https://imgur.com/6sIUlga.png" alt = "ref" width="314" height ="116">
+      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
 
-   
-2. Right click on the Rainmeter icon and select **Manage**.
-3. Expand the **Keylaunch** folder from the left-pane when the manage window opens.
-4. Within that folder, expand **@Settings** and then select `Main.ini`.
-5. Now, on the right, press **Load** to load the ini file. This will open the Keylaunch configuration menu, where you can customize the pattern locks.
-6. Select **Actions** from the hamburger menu.
-7. Click the **`+`** icon to create a new lock for a specific application.
-8. Enter a name for the action, draw a pattern for the lock, and then select the application (shortcut is recommended) to which the lock is being added.
-9. Refresh Rainmeter, and your app-lock should now function properly.
+4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+5. Click the `Edit..` text to set the hotkey for the application you just created.
+    - **Note:** For reference, see the image below. **It's highlighted in grey.**
 
-- **Note:** Further customization can be done through the **Appearance** tab.
+      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
+
+6. Enter the hotkey and press confirm
+7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
+
 
 ## Help and Credits
 
