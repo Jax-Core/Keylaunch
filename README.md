@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Jax-Core/Keylaunch">
-    <img src="https://imgur.com/JUtenXx" alt="Logo" width="200" height="200">
+    <img src="https://imgur.com/JUtenXx.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Keylaunch</h3>
