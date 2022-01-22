@@ -34,7 +34,13 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#Configuration">Configuration</a></li>
+        <li>
+        <a href="#Configuration">Configuration</a>
+          <ul>
+        <li><a href="#setting-up-a-hotkey">Hotkey Setup</a></li>
+        <li><a href="#selecting-an-animation">Animation Selection</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
 
