@@ -87,11 +87,11 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 ### Configuration
 
-#### Setting up a hotkey:
-
 Now that you've installed Keylaunch, let's configure it!
 
-1. Open Core and head over to the Modules section.
+#### Setting up a hotkey:
+
+1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
 3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
@@ -104,11 +104,17 @@ Now that you've installed Keylaunch, let's configure it!
 
       <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
 
-6. Enter the hotkey and press confirm
+6. Enter the hotkey and press confirm.
 7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
-
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
 
 ## Help and Credits
 
 - Join the [Core Community Discord Server](https://discord.gg/JmgehPSDD6) for more help.
+
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
