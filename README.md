@@ -45,6 +45,7 @@
               <li><a href="#selecting-an-animation">Animation Selection</a></li>
             </ul>
           </li>
+          <li><a href="#manual-setup">Manual Setup</a>
         </ul>
     </li>
  <li>
@@ -96,7 +97,9 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 ## Configuration
 
-Now that you've installed Keylaunch, let's configure it!
+Now that you've installed Keylaunch, let's configure it! There are two different ways you can configure it as shown below.
+
+### Automated Setup
 
 #### Setting up a hotkey:
 
@@ -125,6 +128,10 @@ Now that you've installed Keylaunch, let's configure it!
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
 </p>
+
+### Manual Setup
+
+
 
 ## Help and Credits
 
