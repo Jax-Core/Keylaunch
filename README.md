@@ -149,16 +149,17 @@ Even when manually configuring an action, you have two options. They are, in tur
 ##### Method 2:
 
 1. Navigate to `Documents\Rainmeter\CoreData\Keylaunch\IconCache`.
-2. Paste the image file for your icon in the **IconCache** folder. **Make sure the image has the `.png` extension.**
+2. Copy the image file to be used as your icon in the **IconCache** folder. Please keep note of the file name as we will be needing it later.
+**Also, make sure the image has the `.png` extension.**
 3. Open Core and head over to the **Modules** section.
 4. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-5. Under **List of actions**, create a new action using the **Add an action** button.
-6. Press the edit button to create a new hotkey for a specific application.
+5. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
     - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
 
-7. Click on the **Quick Start** button and select the custom shortcut you creatd in **Step 1**.
+6. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+7. After you've chosen the shortcut, click on the icon and change the name of the icon to the name of the custom icon image(refer to **Step 2** for the file name), then press **Enter** on your keyboard and **Confirm**. This will change the action icon to the image you chose. **Make sure you do not include the `.png` while passing the image name.**
 8. Click the `Edit..` text to set the hotkey for the application you just created.
     - **Note:** For reference, see the image below. **It's highlighted in grey.**
 
