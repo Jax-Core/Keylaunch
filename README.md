@@ -39,17 +39,17 @@
     <li>
       <a href="#Configuration">Configuration</a>
         <ul>
-          <li><a href="#setting-up-a-hotkey">Hotkey Setup</a>
+          <li><a href="#hotkey-setup">Hotkey Setup</a>
               <ul>
-              <li><a href="#automated-setup">Automated Setup</a></li>
-                <li><a href="#manual-setup">Manual Setup</a>
+              <li><a href="#automated-method">Automated Method</a></li>
+                <li><a href="#manual-method">Manual Method</a>
                 <ul>
                   <li><a href="#method-1">Method 1</a></li>
                   <li><a href="#method-2">Method 2</a></li> </ul>
                 </li>
               </ul>
             </li>
-          <li><a href="#selecting-an-animation">Animation Selection</a></li>
+          <li><a href="#animation-selection">Animation Selection</a></li>
         </ul>
  <li>
       <a href="#help-and-credits">Help and Credits</a>
@@ -104,7 +104,7 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 
 ### Hotkey Setup
 
-#### Automated Setup
+#### Automated Method:
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
@@ -124,7 +124,7 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 
 * **Note:** To add a new action, simply press the **Add an action** button and follow the steps outlined above.
 
-#### Manual Setup
+#### Manual Method:
 
 Even when manually configuring an action, you have two options. They are, in turn, as follows:
 
@@ -167,7 +167,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 
 * **Note:** To add a new action, simply press the **Add an action** button and follow either of the methods described above.
 
-### Selecting an animation:
+### Animation Selection
 
 1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
 2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
