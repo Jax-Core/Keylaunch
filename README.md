@@ -46,6 +46,14 @@
             </ul>
           </li>
           <li><a href="#manual-setup">Manual Setup</a>
+            <ul>
+              <li><a href="#setting-up-a-hotkey">Hotkey Setup</a>
+                <li><a href="#method-1">Method 1</a></li>
+              <li><a href="#method-2">Method 2</a></li>
+              </li>
+              <li><a href="#selecting-an-animation">Animation Selection</a></li>
+            </ul>
+          </li>
         </ul>
     </li>
  <li>
@@ -125,13 +133,57 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
 3. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
 
-<p align="right">
-    <b><a href="#top">↥ back to top</a></b>
-</p>
 
 ### Manual Setup
 
+Even when manually configuring an action, you have two options. They are, in turn, as follows:
 
+#### Setting up a hotkey:
+
+##### Method 1:
+1. Open Core and head over to the **Modules** section.
+2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
+3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
+
+      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
+
+4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+5. Click the `Edit..` text to set the hotkey for the application you just created.
+    - **Note:** For reference, see the image below. **It's highlighted in grey.**
+
+      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
+
+6. Enter the hotkey and press confirm.
+7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
+##### Method 2:
+
+1. Open Core and head over to the **Modules** section.
+2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
+3. Under **List of actions**, press the edit button to create a new hotkey for a specific application.
+    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
+
+      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
+
+4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+5. Click the `Edit..` text to set the hotkey for the application you just created.
+    - **Note:** For reference, see the image below. **It's highlighted in grey.**
+
+      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
+
+6. Enter the hotkey and press confirm.
+7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
+#### Selecting an animation:
+
+1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
+2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
+3. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
 
 ## Help and Credits
 
