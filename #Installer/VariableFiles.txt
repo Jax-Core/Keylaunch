@@ -1,3 +1,0 @@
-@Resources\Vars.inc
-@Resources\Act.inc
-@Resources\Actions\Hotkeys.ini

@@ -8,7 +8,7 @@ OnRefreshAction=[!ZPos 1][!Move (#SCREENAREAWIDTH#/2-#Sec.W#/2) (#SCREENAREAHEIG
 
 [ExportVariables]
 Measure=Calc
-OnUpdateAction=[!WriteKeyValue Variables RMPATH "#PROGRAMPATH#Rainmeter.exe" "#@#Actions\Hotkeys.ini"][!Delay 100][!EnableMeasureGroup NUOL]
+OnUpdateAction=[!WriteKeyValue Variables RMPATH "#PROGRAMPATH#Rainmeter.exe" "#@#Actions\Hotkeys.inc"][!Delay 100][!EnableMeasureGroup NUOL]
 
 [CheckModular]
 Measure=String

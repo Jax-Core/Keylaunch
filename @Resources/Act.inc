@@ -1,2 +1,0 @@
-[Variables]
-Total=0

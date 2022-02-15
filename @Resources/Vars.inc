@@ -8,11 +8,11 @@ FontColor=255,255,255
 Glowcolor=255,255,255
 Glowopacity=150
 
-ExecuteAt=0
+ExecuteAt=1
 LaunchAt=1
 Caps=0
 
-Style=Spin
+Style=Bottom
 GlobalFont=SF Pro Rounded
 Greyscale=0
 
