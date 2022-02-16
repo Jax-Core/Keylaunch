@@ -17,7 +17,7 @@ GlobalFont=Poppins
 Greyscale=0
 
 UpdateRate=0
-ShowAni=0
+ShowAni=1
 FontSizeModifier=1
 
 Glow=255,255,255
