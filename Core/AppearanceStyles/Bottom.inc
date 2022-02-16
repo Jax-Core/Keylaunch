@@ -50,3 +50,15 @@ Y=([Option11:Y]-#Set.P#+(-30/2+8)*[Set.S])
 Meter=String
 Text=#Style.Time1#
 MeterStyle=Set.String:S | Set.Value:S
+
+
+; ---------------------------------------------------------------------------- ;
+;                                    Anchor                                    ;
+; ---------------------------------------------------------------------------- ;
+
+
+[AnchorSuppli]
+Meter=String
+Container=ContentContainer
+x=r
+Y=R

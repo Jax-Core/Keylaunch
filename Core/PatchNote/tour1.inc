@@ -30,40 +30,33 @@ FontSize=(10*#Sec.S#)
 Text=[\xEA1F]
 DynamicVariables=1
 
-
 ; ---------------------------------------------------------------------------- ;
 ;                                    Content                                   ;
 ; ---------------------------------------------------------------------------- ;
 
-[ImageContainer]
+
+[B2]
 Meter=Shape
-Shape=Rectangle 0,0,(#Sec.W#),[Image:H],#Sec.R# | StrokeWidth 0 | Fill LinearGradient This
-This=90 | 0,0,0,0 ; 0 | 0,0,0,255 ; 1
+Shape=Rectangle 0,0,(#Sec.W#),(#Sec.H#),#Set.R# | StrokeWidth 0 | Fill Color #Set.Pri_color#
 DynamicVariables=1
-
-[Image]
+[Img2]
 Meter=Image
-Container=Imagecontainer
-ImageName=#@#Images\TourPreview.png
-W=#Sec.W#
-H=(200*#sec.S#)
+W=(#Sec.w#)
+H=(#sec.H#)
+DynamicVariables=1
 PreserveAspectRatio=2
-ImageAlpha=175
+Container=B2
+ImageAlpha=50
+ImageName=#SKINSPATH##Sec.arg1#\@Resources\Images\tour1.png
 
-[Img]
-Meter=Image
-X=(#Sec.W#/2-[Img:W]/2)
-Y=#Sec.P#
-W=(100*#Sec.S#)
-H=([Img:W])
-DynamicVariables=1
-ImageName=#SKINSPATH##Sec.arg1#\@Resources\Images\yourMixer.png
 
-[Text]
+[Text2]
 Meter=String
-Text=YourMixer#CRLF#Volume control for Windows
+Text=Add hotkeys & actions in seconds#CRLF#With the built in hotkey and actions configurator
 X=(#Sec.W#/2)
-Y=(15*#Sec.s#)R
+Y=(#Sec.H#/2)
+W=(#Sec.W#)
+ClipString=2
 FontSize=(20*#Sec.S#)
 InlinePattern=.*#CRLF#
 InlineSetting=GradientColor | 180 | #Set.Accent_Color# ; 1.0 | #Set.Accent_Color_2# ; 0.0
@@ -79,85 +72,6 @@ FontWeight=650
 
 
 
-; --------------------------------- Section1 --------------------------------- ;
-
-[Section1]
-Meter=Shape
-X=#Sec.P#
-Y=(15*#Sec.S#)R
-Shape=Rectangle 0,0,(#Sec.W#-#Sec.P#*2),(100*#Sec.S#),(#Sec.R#/2) | StrokeWidth 0 | Extend Fill
-Fill=Fill Color #Set.Sec_Color#
-MouseOverAction=[!SetOption #CURRENTSECTION# Fill "Fill Color #Set.Ter_Color#"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Fill Color #Set.Sec_Color#"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-DynamicVariables=1
-Leftmouseupaction=[!WriteKeyvalue Variables Hotkey "(#Hotkey# = 1 ? 0 : 1)" #Sec.SaveLocation#][!SetVariable Hotkey "(#Hotkey# = 1 ? 0 : 1)"][!UpdateMeter *][!Redraw]
-
-[Section1.Icon]
-Meter=String
-X=(#Sec.P#)r
-Y=(100/2*#Sec.S#)r
-FontSize=(20*#Sec.S#)
-MeterStyle=Sec.String:S | Sec.Icon:S | Section1.Icon:#Hotkey#
-[Section1.Icon:0]
-FontColor=#Set.Accent_Color#
-Text=[\xE8BB]
-InlineSetting=Shadow | 0 | 0 | 2 | #Set.Accent_Color#
-[Section1.Icon:1]
-FontColor=#Set.Positive_Color#
-Text=[\xE73E]
-InlineSetting=Shadow | 0 | 0 | 2 | #Set.Positive_Color#
-
-[Section1.Text]
-Meter=String
-X=(60*#Sec.S#)r
-Y=r
-W=(#Sec.W#-120*#sec.S#)
-FontSize=(10*#Sec.S#)
-Text=Use hotkeys to launcher Mixer. #CRLF#You can configure the hotkeys in the settings.
-StringAlign=LeftCenter
-InlinePattern=#CRLF#.*
-InlineSetting=Color | #Set.SubText_Color#
-MeterStyle=Sec.String:S
-
-; --------------------------------- Section2 --------------------------------- ;
-
-[Section2]
-Meter=Shape
-X=#Sec.P#
-Y=(15*#Sec.S#)R
-Shape=Rectangle 0,0,(#Sec.W#-#Sec.P#*2),(100*#Sec.S#),(#Sec.R#/2) | StrokeWidth 0 | Extend Fill
-Fill=Fill Color #Set.Sec_Color#
-MouseOverAction=[!SetOption #CURRENTSECTION# Fill "Fill Color #Set.Ter_Color#"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Fill Color #Set.Sec_Color#"][!UpdateMeter #CURRENTSECTION#][!Redraw]
-DynamicVariables=1
-Leftmouseupaction=[!WriteKeyvalue Variables Tray "(#Tray# = 1 ? 0 : 1)" #Sec.SaveLocation#][!SetVariable Tray "(#Tray# = 1 ? 0 : 1)"][!UpdateMeter *][!Redraw]
-
-[Section2.Icon]
-Meter=String
-X=(#Sec.P#)r
-Y=(100/2*#Sec.S#)r
-FontSize=(20*#Sec.S#)
-MeterStyle=Sec.String:S | Sec.Icon:S | Section2.Icon:#Tray#
-[Section2.Icon:0]
-FontColor=#Set.Accent_Color#
-Text=[\xE8BB]
-InlineSetting=Shadow | 0 | 0 | 2 | #Set.Accent_Color#
-[Section2.Icon:1]
-FontColor=#Set.Positive_Color#
-Text=[\xE73E]
-InlineSetting=Shadow | 0 | 0 | 2 | #Set.Positive_Color#
-
-[Section2.Text]
-Meter=String
-X=(60*#Sec.S#)r
-Y=r
-W=(#Sec.W#-120*#sec.S#)
-FontSize=(10*#Sec.S#)
-Text=Create a volume tray icon#CRLF#Clicking on the tray icon launches YourMixer
-StringAlign=LeftCenter
-InlinePattern=#CRLF#.*
-InlineSetting=Color | #Set.SubText_Color#
-MeterStyle=Sec.String:S
 
 [SubtleText]
 Meter=String

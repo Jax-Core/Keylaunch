@@ -2,18 +2,18 @@
 Blur=5
 CircSize=140
 
-MainCColor=0,0,0
-MainCOpacity=255
+MainCColor=18,18,18
+MainCOpacity=150
 FontColor=255,255,255
 Glowcolor=255,255,255
-Glowopacity=150
+Glowopacity=0
 
 ExecuteAt=1
 LaunchAt=1
 Caps=0
 
-Style=Bottom
-GlobalFont=SF Pro Rounded
+Style=VectorSlide
+GlobalFont=Poppins
 Greyscale=0
 
 UpdateRate=0

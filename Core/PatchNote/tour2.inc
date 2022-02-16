@@ -52,7 +52,7 @@ ImageName=#SKINSPATH##Sec.arg1#\@Resources\Images\tour2.png
 
 [Text2]
 Meter=String
-Text=Over 30 options to play with#CRLF#Endless combinations and looks
+Text=5 built in smooth animations#CRLF#With vast customizability for timing and appearance
 X=(#Sec.W#/2)
 Y=(#Sec.H#/2)
 FontSize=(20*#Sec.S#)

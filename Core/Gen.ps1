@@ -106,6 +106,7 @@ Key$($i)InString=$($global:arrayKeyS[$i-1])
     # ---------------------------------------------------------------------------- #
     $global:file4content += @"
 #SingleInstance Force
+#Persistent
 Menu, Tray, Icon, Keylaunch.ico, 1
 Menu, Tray, NoStandard
 
@@ -114,8 +115,12 @@ AHK_NOTIFYICON(wParam, lParam, uMsg, hWnd)
 {
     if (lParam = 0x201) ;WM_LBUTTONDOWN := 0x201
     {
-        MsgBox, % "will reload"
-        Reload
+        if(A_IsSuspended){
+            Menu, Tray, Icon, Keylaunch.ico, , 1
+        } else {
+            Menu, Tray, Icon, KeylaunchPaused.ico, , 1
+        }
+        Suspend
     }
 }
 
@@ -158,7 +163,7 @@ SendToReceiver(index)
     $global:file3Content | Out-File -FilePath $global:file3 -Encoding unicode
     $global:file4Content | Out-File -FilePath $global:file4 -Encoding unicode
 
-    $RmAPI.Bang('[!Refresh]')
+    $RmAPI.Bang('[!UpdateMEasure Auto_Refresh:M][!Refresh]')
 }
 
 function Get-IniContent ($filePath) {

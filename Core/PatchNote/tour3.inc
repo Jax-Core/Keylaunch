@@ -35,24 +35,11 @@ DynamicVariables=1
 ; ---------------------------------------------------------------------------- ;
 
 
-[B2]
-Meter=Shape
-Shape=Rectangle 0,0,(#Sec.W#),(#Sec.H#),#Set.R# | StrokeWidth 0 | Fill Color #Set.Pri_color#
-DynamicVariables=1
-[Img2]
-Meter=Image
-W=(#Sec.w#)
-H=(#sec.H#)
-DynamicVariables=1
-PreserveAspectRatio=2
-Container=B2
-ImageAlpha=50
-ImageName=#SKINSPATH##Sec.arg1#\@Resources\Images\tour3.png
 
 
 [Text2]
 Meter=String
-Text=8 built in styles#CRLF#With diverse layouts and dimensions
+Text=Keylaunch is all yours!#CRLF#Start by adding your own actions in the Actions tab!
 X=(#Sec.W#/2)
 Y=(#Sec.H#/2)
 FontSize=(20*#Sec.S#)
@@ -77,10 +64,10 @@ X=(#Sec.W#/2)
 Y=(#Sec.H#-#Sec.P#)
 FontColor=#Set.Subtext_Color#
 StringAlign=CenterBottom
-Text=Next
+Text=Finish
 MouseOverAction=[!SetOption #CURRENTSECTION# InlineSetting "Underline"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# InlineSetting ""][!UpdateMeter #CURRENTSECTION#][!Redraw]
-LeftMouseUpAction=[!CommandMeasure Func "interactionBox([[#SKINSPATH##sec.arg1#\Core\PatchNote\tour4.inc]])"][!Refresh]
+LeftMouseUpAction=[!CommandMEasure ActionTimer "Execute 2"][!ActivateConfig "#JaxCore\Accessories\Popup"]
 MeterStyle=Sec.String:S
 
 [Esc]

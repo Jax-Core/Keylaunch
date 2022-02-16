@@ -15,6 +15,29 @@ Meter=String
 Text=Full capital letter names
 MeterStyle=Set.String:S | Set.OptionName:S
 
+[AniTitle]
+Meter=String
+Text=Animation configuration
+MeterStyle=Set.String:S | Set.OptionCat:S
+[Option21]
+Meter=String
+Text=Animations
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:S1913sadsas138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option26]
+Meter=String
+Text=Animation display monitor index
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:dsas138]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option22]
+Meter=String
+Text=Animation frame interval (0 for true 60fps)
+MeterStyle=Set.String:S | Set.OptionName:S
+
 [CoTitle]
 Meter=String
 Text=Global appearance
@@ -59,29 +82,6 @@ Meter=String
 Text=Greyscale Icon
 MeterStyle=Set.String:S | Set.OptionName:S
 
-[AniTitle]
-Meter=String
-Text=Animation configuration
-MeterStyle=Set.String:S | Set.OptionCat:S
-[Option21]
-Meter=String
-Text=Start animations before launching application
-MeterStyle=Set.String:S | Set.OptionName:S
-[Set.Div:S1913sadsas138]
-Meter=Shape
-MeterStyle=Set.Div:S
-[Option26]
-Meter=String
-Text=Animation display monitor index
-MeterStyle=Set.String:S | Set.OptionName:S
-[Set.Div:dsas138]
-Meter=Shape
-MeterStyle=Set.Div:S
-[Option22]
-Meter=String
-Text=Animation frame interval (0 for true 60fps)
-MeterStyle=Set.String:S | Set.OptionName:S
-
 ; ---------------------------------------------------------------------------- ;
 ;                                     Input                                    ;
 ; ---------------------------------------------------------------------------- ;
@@ -94,6 +94,28 @@ Y=([Option01:Y]-#Set.P#+(-20/2+8)*[Set.S])
 Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option02:Y]-#Set.P#+(-20/2+8)*[Set.S])
+
+
+[ShowAni]
+Meter=Shape
+MeterStyle=Set.Bool:S
+Y=([Option21:Y]-#Set.P#+(-20/2+8)*[Set.S])
+[LaunchAt]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option26:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value26]
+Meter=String
+Text=#LaunchAt#
+MeterStyle=Set.String:S | Set.Value:S
+[UpdateRate]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option22:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value22]
+Meter=String
+Text=#UpdateRate#
+MeterStyle=Set.String:S | Set.Value:S
 
 [Blur]
 Meter=Shape
@@ -135,25 +157,3 @@ MeterStyle=Set.String:S | Set.Pacity:S
 Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option16:Y]-#Set.P#+(-20/2+8)*[Set.S])
-
-
-[ShowAni]
-Meter=Shape
-MeterStyle=Set.Bool:S
-Y=([Option21:Y]-#Set.P#+(-20/2+8)*[Set.S])
-[LaunchAt]
-Meter=Shape
-MeterStyle=Set.Textbox:S
-Y=([Option26:Y]-#Set.P#+(-30/2+8)*[Set.S])
-[Value26]
-Meter=String
-Text=#LaunchAt#
-MeterStyle=Set.String:S | Set.Value:S
-[UpdateRate]
-Meter=Shape
-MeterStyle=Set.Textbox:S
-Y=([Option22:Y]-#Set.P#+(-30/2+8)*[Set.S])
-[Value22]
-Meter=String
-Text=#UpdateRate#
-MeterStyle=Set.String:S | Set.Value:S
