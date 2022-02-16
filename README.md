@@ -129,19 +129,25 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-3. Under **List of actions**, press the edit button to configure the pre-existing blank action.
-    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
+3. Press the create button to create a new action.
+    > For reference, see the image below.
+    > <img src ="https://imgur.com/jUqxVlb.png" alt = "ref" width="197" height ="49">
 
-      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
+4. Click the newly created action's name to open the config menu.
+    > For reference, see the image below.
+    > <img src ="https://imgur.com/Dv2JWgJ.png" alt = "ref" width="667" height ="55">
 
-4. Press the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
-5. Click the `Edit..` text to set the hotkey for the action you just created.
-    - **Note:** For reference, see the image below. **It's highlighted in grey.**
+5. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey. ***Please note the shortcut has to be in `.lnk` format.**
+    > For reference, see the image below.
+    > <img src ="https://imgur.com/6uUxffg.png" alt = "ref" width="286" height ="104">
 
-      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
+6. Press the **Confirm** button to finish selecting the shortcut.
+    > For reference, see the image below.
+    > <img src ="https://imgur.com/JJxpQWJ.png" alt = "ref" width="286" height ="104">
 
-6. Enter the hotkey and press confirm.
-7. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+7. Press the `Edit Hotkey` button, enter the hotkey and press **Confirm**. This will set the hotkey for the action you just created.
+    > For reference, see the image below.
+    > <img src ="https://imgur.com/QZ1ZcYc.png" alt = "ref" width="667" height ="55">
 
 #### Custom Icon Configuration:
 
