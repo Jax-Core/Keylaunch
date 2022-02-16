@@ -25,9 +25,14 @@
   <ol>
     <li>
       <a href="#about">About</a>
+      <ul>
+          <li>
+      <a href="#features">Features</a>
     </li>
-    <li>
-      <a href="#Features">Features</a>
+              <li>
+      <a href="#animation-preview">Animations Preview</a>
+    </li>
+      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -57,12 +62,13 @@
   </ol>
 </details>
 
-
 ## About
 
-Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. The application hotkey list is extremely simple to configure, and you can even change the action's name and icon. There are four different types of animation presets to choose from and configure based on your preferences. **See the video linked above.**
+![KeyLaunch](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/97bfd084-7ef0-496f-a835-3c41f482d38c/deqbuo9-a4b7091c-011d-485e-aa17-781d0fbbdd12.png/v1/fill/w_1095,h_730,q_70,strp/keylaunch_2_0___animated_hotkey_launcher_by_jaxoriginals_deqbuo9-pre.jpg)
 
-## Features
+Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. The application hotkey list is extremely simple to configure, and you can even change the action's name and icon. There are five different types of animation presets to choose from and configure based on your preferences.
+
+### Features
 
 * 5 Animation Presets
 * Vast Customization Options 
@@ -70,20 +76,23 @@ Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. Th
 * Custom Icon and Action Names
 * Unlimited Hotkeys Support
 
-<p align="right">
-    <b><a href="#top">↥ back to top</a></b>
-</p>
+### Animations Preview
+A preview of all the five animation styles Keylaunch has!
 
-
-## Animation preview
+#### VectorSlide
 ![VectorSlide](https://user-images.githubusercontent.com/80020581/154211071-ebc38def-bfdd-4def-aa92-0712dbf4f5a1.gif)
+
+#### Expand
 ![Expand](https://user-images.githubusercontent.com/80020581/154211299-0d05385f-ae6a-4854-9672-b98750db0b03.gif)
+
+#### Bottom
 ![Bottom](https://user-images.githubusercontent.com/80020581/154211292-026e077b-5929-45a2-b35d-8a7325ee6778.gif)
+
+#### Spin
 ![Spin](https://user-images.githubusercontent.com/80020581/154211282-9eaca91d-1247-41ff-8c13-96a322ef6078.gif)
+
+#### Center
 ![Center](https://user-images.githubusercontent.com/80020581/154211296-bdf35ef5-e4d5-4d3b-9acc-ff1b1dc700be.gif)
-
-
-
 
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -94,7 +103,7 @@ Keylaunch is a Rainmeter skin that lets you easily launch apps with a hotkey. Th
 ### Prerequisites
 
 - **Rainmeter v4.5 or newer.** Rainmeter can be installed by downloading the `.exe` file [from Rainmeter's official website.](https://www.rainmeter.net/)
-- **JaxCore v40005 or newer.** JaxCore can be installed by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
+- **JaxCore v44703 or newer.** JaxCore can be installed by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
 ### Installation
 
@@ -104,7 +113,7 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 2. Leave the installation settings at their defaults and click Install.
 3. When the installation is finished, a startup pop-up should appear. Follow through the pop-up to finish installing **Keylaunch**.
 
-* Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
+> Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -186,8 +195,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 ### Animation Selection
 
 1. Once you're done setting up a hotkey, navigate to the **Animations** tab.
-2. Choose one of the five animation presets available. **Expand**, **Enlarge**, **Traynotif**, **Skewed**, and **Spin** are the available presets.
-3. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+2. Choose one of the five animation presets available. **VectorSlide**, **Expand**, **Bottom**, **Spin**, and **Center** are the available presets.
 
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
