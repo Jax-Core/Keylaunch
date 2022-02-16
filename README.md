@@ -155,28 +155,26 @@ Even when manually configuring an action, you have two options. They are, in tur
 
 ##### Method 2:
 
-1. Navigate to `Documents\Rainmeter\CoreData\Keylaunch\IconCache`.
+1. Navigate to `Documents\Rainmeter\CoreData\Keylaunch\IconCache`
 2. Transfer the image file that will be used as your icon to the **IconCache** folder. Please keep note of the file name as we will be needing it later.
-**Also, make sure the image has the `.png` extension.**
+**Also, saving the image as a `.png` file is recommended.**
 3. Open Core and head over to the **Modules** section.
 4. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-5. Under **List of actions**, create a new action using the **Add an action** button.
-6. Press the edit button to configure the action.
-    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
+5. Press the create button to create a new action.
+    >  <img src ="https://imgur.com/jUqxVlb.png" alt = "ref" width="197" height ="49">
 
-      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
+6. Click the newly created action's name to open the config menu.
+    >  <img src ="https://imgur.com/Dv2JWgJ.png" alt = "ref" width="667" height ="55">
 
-7. Click on the **Quick Start** button and select the application shortcut for which you're setting the hotkey.
-8. After you've chosen the shortcut, click on the icon and change the name of the icon to the name of the custom icon image(refer to **Step 2** for the file name), then press **Enter** on your keyboard and **Confirm**. **Make sure you do not include the `.png` while passing the image name.**
-9. Click the `Edit..` text to set the hotkey for the action you just created.
-    - **Note:** For reference, see the image below. **It's highlighted in grey.**
+7. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey.
+    >  <img src ="https://imgur.com/6uUxffg.png" alt = "ref" width="286" height ="104">
 
-      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
+8. After you've chosen the shortcut, change the `ImageName` field to the name of the custom icon image(refer to **Step 2** for the file name), set the action name under `Action`, then press **Enter** on your keyboard and then the **Confirm** button. **Make sure you do not include the `.png` while passing the image name.**
+    >  <img src ="https://imgur.com/JJxpQWJ.png" alt = "ref" width="286" height ="104">
 
-10. Enter the hotkey and press confirm.
-11. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+9. Press the `Edit Hotkey` button, enter the hotkey and press **Confirm**. This will set the hotkey for the action you just created.
+    >  <img src ="https://imgur.com/QZ1ZcYc.png" alt = "ref" width="667" height ="55">
 
-* **Note:** To add a new action, simply press the **Add an action** button and follow either of the methods described above.
 
 ### Animation Selection
 
