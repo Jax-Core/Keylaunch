@@ -131,22 +131,27 @@ Now that you've installed Keylaunch, let's configure it! There are two different
 2. Select **Keylaunch** from the list and proceed to the **Actions** tab.
 3. Press the create button to create a new action.
     > For reference, see the image below.
+    
     > <img src ="https://imgur.com/jUqxVlb.png" alt = "ref" width="197" height ="49">
 
 4. Click the newly created action's name to open the config menu.
     > For reference, see the image below.
+
     > <img src ="https://imgur.com/Dv2JWgJ.png" alt = "ref" width="667" height ="55">
 
-5. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey. ***Please note the shortcut has to be in `.lnk` format.**
+5. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
     > For reference, see the image below.
+
     > <img src ="https://imgur.com/6uUxffg.png" alt = "ref" width="286" height ="104">
 
 6. Press the **Confirm** button to finish selecting the shortcut.
     > For reference, see the image below.
+
     > <img src ="https://imgur.com/JJxpQWJ.png" alt = "ref" width="286" height ="104">
 
 7. Press the `Edit Hotkey` button, enter the hotkey and press **Confirm**. This will set the hotkey for the action you just created.
     > For reference, see the image below.
+
     > <img src ="https://imgur.com/QZ1ZcYc.png" alt = "ref" width="667" height ="55">
 
 #### Custom Icon Configuration:
