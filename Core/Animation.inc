@@ -93,6 +93,7 @@ Text=[\xe8f4]  Preview
 [Item1.Shape]
 Meter=Shape
 Y=(30*[Set.S])R
+LeftMouseUpAction=["https://github.com/Jax-Core/Keylaunch#animation-preview"]
 MeterStyle=Item.Shape:S
 [Item1.StringIcon]
 Meter=String
