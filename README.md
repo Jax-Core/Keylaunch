@@ -137,7 +137,7 @@ Now that you've installed Keylaunch, let's configure it! There are two different
     > For reference, see the image below.
     >  <img src ="https://imgur.com/Dv2JWgJ.png" alt = "ref" width="667" height ="55">
 
-5. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+5. Press the **Select Shortcut** button and select the application shortcut for which you're setting the hotkey.
     > For reference, see the image below.<br>
     >  <img src ="https://imgur.com/6uUxffg.png" alt = "ref" width="286" height ="104">
 
@@ -186,7 +186,7 @@ Even when manually configuring an action, you have two options. They are, in tur
 
       <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
 
-7. Click on the **Quick Start** button and select the application shortcut for which you're setting the hotkey. **Please note the shortcut has to be in `.lnk` format.**
+7. Click on the **Quick Start** button and select the application shortcut for which you're setting the hotkey.
 8. After you've chosen the shortcut, click on the icon and change the name of the icon to the name of the custom icon image(refer to **Step 2** for the file name), then press **Enter** on your keyboard and **Confirm**. **Make sure you do not include the `.png` while passing the image name.**
 9. Click the `Edit..` text to set the hotkey for the action you just created.
     - **Note:** For reference, see the image below. **It's highlighted in grey.**
