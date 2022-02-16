@@ -150,23 +150,8 @@ Even when manually configuring an action, you have two options. They are, in tur
 
 ##### Method 1:
 
-1. Create a shortcut with the custom icon and place it anywhere. **Make sure the shortcut has the `.lnk` extension.**
-2. Open Core and head over to the **Modules** section.
-3. Select **Keylaunch** from the list and proceed to the **Actions** tab.
-4. Under **List of actions**, create a new action using the **Add an action** button.
-5. Press the edit button to configure the action.
-    - **Note:** The edit button is indicated by the small green colored pen icon just next to `Edit..`. For reference, see the image below.
-
-      <img src ="https://imgur.com/PNFKsqD.png" alt = "ref" width="221" height ="60">
-
-6. Click on the **Quick Start** button and select the custom shortcut you creatd in **Step 1**.
-7. Click the `Edit..` text to set the hotkey for the action you just created.
-    - **Note:** For reference, see the image below. **It's highlighted in grey.**
-
-      <img src ="https://imgur.com/mdgm9No.png" alt = "ref" width="217" height ="62">
-
-8. Enter the hotkey and press confirm.
-9. Refresh **Keylaunch** by deactivating and activating again using the toggle on the bottom left.
+1. Create a shortcut with the custom icon and place it anywhere. 
+2. Once you've created the shortcut, refer to the guide listed under **[Default Configuration](https://github.com/Jax-Core/Keylaunch#default-configuration)** to finish setting it up.
 
 ##### Method 2:
 
