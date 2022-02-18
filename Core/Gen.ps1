@@ -89,7 +89,7 @@ $($i)Icon=$($global:arrayIcon[$i-1])
     # ---------------------------------------------------------------------------- #
     $global:file3content += @"
 [Variables]
-RMPATH=$($RmAPI.VariableStr('RMPATH'))
+RMPATH=$($RmAPI.VariableStr('PROGRAMPATH'))Rainmeter.exe
 
 "@
 
