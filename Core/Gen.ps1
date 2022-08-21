@@ -1,7 +1,7 @@
 function Update {
     $global:t = [int]$RmAPI.VariableStr('Total')
     $global:skinsPath = $RmAPI.VariableStr('SKINSPATH')
-    $global:coreDataDir = "$($global:skinsPath.Replace('Skins\',''))CoreData\"
+    $global:coreDataDir = "$global:skinsPath\..\CoreData\"
     $global:file1 = "$global:coreDataDir"+"Keylaunch\Include.inc"
     $global:file2 = "$global:coreDataDir"+"Keylaunch\Act.inc"
     $global:file3 = "$global:coreDataDir"+"Keylaunch\Hotkeys.inc"
